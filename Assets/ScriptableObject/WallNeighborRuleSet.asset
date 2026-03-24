@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d0f61ce391ecc4880846e32e27a2a3, type: 3}
+  m_Name: WallNeighborRuleSet
+  m_EditorClassIdentifier: Assembly-CSharp::WallNeighborRuleSet
+  rules:
+  - mask:
+      up: 0
+      down: 0
+      left: 0
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 0
+    applyTile: {fileID: 11400000, guid: 279eff9c57e98eb47bcbbb8f67187627, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 0
+      down: 1
+      left: 0
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 0
+    applyTile: {fileID: 11400000, guid: 8bcb760beb4a2af4599020866abb43a0, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 0
+      left: 0
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 180
+    applyTile: {fileID: 11400000, guid: 8bcb760beb4a2af4599020866abb43a0, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 0
+      down: 0
+      left: 1
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 270
+    applyTile: {fileID: 11400000, guid: 8bcb760beb4a2af4599020866abb43a0, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 0
+      down: 0
+      left: 0
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 90
+    applyTile: {fileID: 11400000, guid: 8bcb760beb4a2af4599020866abb43a0, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 1
+      left: 0
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 0
+    applyTile: {fileID: 11400000, guid: d00d0c610fb4133418dbb7803236b378, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 0
+      down: 0
+      left: 1
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 90
+    applyTile: {fileID: 11400000, guid: d00d0c610fb4133418dbb7803236b378, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 0
+      left: 0
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 0
+    applyTile: {fileID: 11400000, guid: 84e97ce26743ead4e861b9a6226913ff, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 0
+      left: 1
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 90
+    applyTile: {fileID: 11400000, guid: 84e97ce26743ead4e861b9a6226913ff, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 0
+      down: 1
+      left: 1
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 180
+    applyTile: {fileID: 11400000, guid: 84e97ce26743ead4e861b9a6226913ff, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 0
+      down: 1
+      left: 0
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 270
+    applyTile: {fileID: 11400000, guid: 84e97ce26743ead4e861b9a6226913ff, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 1
+      left: 0
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 0
+    applyTile: {fileID: 11400000, guid: 388643216706615448885b793abc28a7, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 0
+      down: 1
+      left: 1
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 270
+    applyTile: {fileID: 11400000, guid: 388643216706615448885b793abc28a7, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 1
+      left: 1
+      right: 0
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 180
+    applyTile: {fileID: 11400000, guid: 388643216706615448885b793abc28a7, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 0
+      left: 1
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 90
+    applyTile: {fileID: 11400000, guid: 388643216706615448885b793abc28a7, type: 2}
+    ignoreDiagonals: 1
+  - mask:
+      up: 1
+      down: 1
+      left: 1
+      right: 1
+      upLeft: 0
+      upRight: 0
+      downLeft: 0
+      downRight: 0
+    applyRotationZ: 0
+    applyTile: {fileID: 11400000, guid: 6e941227b83ee5148926f5e07ce2cefe, type: 2}
+    ignoreDiagonals: 1
+  wallTiles: []

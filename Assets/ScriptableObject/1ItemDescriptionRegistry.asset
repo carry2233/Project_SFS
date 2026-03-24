@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852a98fb95d3602419c0d99b0876adca, type: 3}
+  m_Name: 1ItemDescriptionRegistry
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDescriptionRegistry
+  entries:
+  - typeId: 0
+    itemId: 1
+    descriptionPrefab: {fileID: 3195877673844473564, guid: 2f3f2e245c998984da804090438ef8d7, type: 3}
+  - typeId: 2
+    itemId: 1
+    descriptionPrefab: {fileID: 4594961849722878952, guid: d8de3e6bdb58d5e4db43e7f33f7c2ecd, type: 3}
+  - typeId: 1
+    itemId: 1
+    descriptionPrefab: {fileID: 4594961849722878952, guid: cea1221f4bded3e4f826afd35ca6404a, type: 3}
+  - typeId: 1
+    itemId: 2
+    descriptionPrefab: {fileID: 4594961849722878952, guid: 2784a392d6a41cf4b80ebf4c8f20a954, type: 3}
+  - typeId: 1
+    itemId: 3
+    descriptionPrefab: {fileID: 4594961849722878952, guid: 341105ed0078a1b4095b204d3e1002d0, type: 3}

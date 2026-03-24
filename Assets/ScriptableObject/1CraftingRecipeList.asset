@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fed328801855184f83ed8b864dca25d, type: 3}
+  m_Name: 1CraftingRecipeList
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipeList
+  recipes:
+  - resultPrefab: {fileID: 496165888990453991, guid: e3b7562e4e413574b8fc7fcdbb5d5cd2, type: 3}
+    descriptionTextPrefab: {fileID: 8365874100949037586, guid: d8de3e6bdb58d5e4db43e7f33f7c2ecd, type: 3}
+    craftTimeSeconds: 4
+    displayOrder: 0
+    requiredItems:
+    - typeId: 0
+      itemId: 3
+      displayName: "\uCCA0"
+      icon: {fileID: 21300000, guid: 792f2c94ce7e18947b2b580207e5153d, type: 3}
+      requiredCount: 4
+      displayOrder: 1
+    - typeId: 0
+      itemId: 4
+      displayName: "\uAE30\uACC4\uBD80\uD488"
+      icon: {fileID: 21300000, guid: b889df0fb88b7bb43b03e9831745dd43, type: 3}
+      requiredCount: 3
+      displayOrder: 2
+  - resultPrefab: {fileID: 1660988724104927691, guid: d8f157245af2f1f4491edbdc079c4822, type: 3}
+    descriptionTextPrefab: {fileID: 4138686676361300488, guid: 6ca04727f9cfe0e4aa00691b96a40b3d, type: 3}
+    craftTimeSeconds: 4
+    displayOrder: 1
+    requiredItems:
+    - typeId: 0
+      itemId: 3
+      displayName: "\uCCA0"
+      icon: {fileID: 21300000, guid: 792f2c94ce7e18947b2b580207e5153d, type: 3}
+      requiredCount: 4
+      displayOrder: 1
+    - typeId: 0
+      itemId: 5
+      displayName: "\uACE0\uAE09\uBD80\uD488"
+      icon: {fileID: 21300000, guid: 32b8951eefd516c4791916367e195904, type: 3}
+      requiredCount: 3
+      displayOrder: 2
+  - resultPrefab: {fileID: 2041318879299046436, guid: 4329570fa745e6a4b988c3df1d303816, type: 3}
+    descriptionTextPrefab: {fileID: 8365874100949037586, guid: 2784a392d6a41cf4b80ebf4c8f20a954, type: 3}
+    craftTimeSeconds: 5
+    displayOrder: 1
+    requiredItems:
+    - typeId: 0
+      itemId: 1
+      displayName: "\uBAA9\uC7AC"
+      icon: {fileID: 21300000, guid: 2c84e22497c539a489d486e49ad66fc9, type: 3}
+      requiredCount: 3
+      displayOrder: 1
+    - typeId: 0
+      itemId: 3
+      displayName: "\uCCA0"
+      icon: {fileID: 21300000, guid: 792f2c94ce7e18947b2b580207e5153d, type: 3}
+      requiredCount: 4
+      displayOrder: 2

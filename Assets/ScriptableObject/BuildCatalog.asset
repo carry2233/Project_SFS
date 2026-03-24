@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a755281fad8b19e4dbc842d560c129c5, type: 3}
+  m_Name: BuildCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::BuildCatalog
+  categories:
+  - id: 1
+    displayName: "\uBCBD"
+    icon: {fileID: 21300000, guid: 01eaff2756dafc64d954647ec53cc14f, type: 3}
+    items:
+    - id: 1
+      displayName: "\uBAA9\uC7AC \uBCBD"
+      icon: {fileID: 21300000, guid: 01eaff2756dafc64d954647ec53cc14f, type: 3}
+      wallTypeId: 0
+      wallItemId: 0
+      wallPrefab: {fileID: 8705726473868444799, guid: ea9b9050605a0404ea31b62c40b009a5, type: 3}
+      isDestructibleWall: 1
+      wallMaxHealth: 100
+      wallStoppingPower: 1
+      wallDefenseRate: 0
+      wallAbsoluteDefense: 1
+      kind: 0
+      requirements:
+      - typeId: 0
+        itemId: 1
+        count: 3
+      previewPrefab: {fileID: 0}
+      previewTile: {fileID: 11400000, guid: 279eff9c57e98eb47bcbbb8f67187627, type: 2}
+      previewSpriteUp: {fileID: 0}
+      previewSpriteRight: {fileID: 0}
+      previewSpriteDown: {fileID: 0}
+      previewSpriteLeft: {fileID: 0}
+      buildingPrefab: {fileID: 0}
+      holdTime: 1
+    - id: 2
+      displayName: "\uBAA9\uC7AC \uBB38"
+      icon: {fileID: 21300000, guid: 9f4d0018431a07e429d057811e07f280, type: 3}
+      wallTypeId: 0
+      wallItemId: 0
+      wallPrefab: {fileID: 0}
+      isDestructibleWall: 1
+      wallMaxHealth: 100
+      wallStoppingPower: 111
+      wallDefenseRate: 0
+      wallAbsoluteDefense: 1
+      kind: 1
+      requirements:
+      - typeId: 0
+        itemId: 1
+        count: 4
+      previewPrefab: {fileID: 1196867929191430358, guid: 3f15dab7db129984a9282421ba50f46c, type: 3}
+      previewTile: {fileID: 0}
+      previewSpriteUp: {fileID: 21300000, guid: 4c78a6fb2332cae43ab3afdee6ba7bdf, type: 3}
+      previewSpriteRight: {fileID: 21300000, guid: 4c78a6fb2332cae43ab3afdee6ba7bdf, type: 3}
+      previewSpriteDown: {fileID: 21300000, guid: 4c78a6fb2332cae43ab3afdee6ba7bdf, type: 3}
+      previewSpriteLeft: {fileID: 21300000, guid: 4c78a6fb2332cae43ab3afdee6ba7bdf, type: 3}
+      buildingPrefab: {fileID: 1196867929191430358, guid: 3f15dab7db129984a9282421ba50f46c, type: 3}
+      holdTime: 1
+  - id: 2
+    displayName: "\uAC74\uBB3C"
+    icon: {fileID: 21300000, guid: 8ee3e1cc47dfc454a8c59db241f54265, type: 3}
+    items:
+    - id: 3
+      displayName: "\uB2E8\uC870\uC791\uC5C5\uB300"
+      icon: {fileID: 21300000, guid: ee072fd7cb8af114ab49f3e73e364753, type: 3}
+      wallTypeId: 0
+      wallItemId: 0
+      wallPrefab: {fileID: 0}
+      isDestructibleWall: 0
+      wallMaxHealth: 100
+      wallStoppingPower: 0
+      wallDefenseRate: 0
+      wallAbsoluteDefense: 0
+      kind: 1
+      requirements:
+      - typeId: 0
+        itemId: 1
+        count: 3
+      previewPrefab: {fileID: 1196867929191430358, guid: ceaeb6d4217689e45b710d07b77aecc2, type: 3}
+      previewTile: {fileID: 0}
+      previewSpriteUp: {fileID: 21300000, guid: 1e7a325eaa43bf2498ce45161c2891d3, type: 3}
+      previewSpriteRight: {fileID: 21300000, guid: 1e7a325eaa43bf2498ce45161c2891d3, type: 3}
+      previewSpriteDown: {fileID: 21300000, guid: 1e7a325eaa43bf2498ce45161c2891d3, type: 3}
+      previewSpriteLeft: {fileID: 21300000, guid: 1e7a325eaa43bf2498ce45161c2891d3, type: 3}
+      buildingPrefab: {fileID: 1196867929191430358, guid: ceaeb6d4217689e45b710d07b77aecc2, type: 3}
+      holdTime: 2
